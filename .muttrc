@@ -1,0 +1,7 @@
+set editor = "vi"
+set from = "musgravejw@gmail.com"
+set send_charset = "us-ascii:utf-8"
+set imap_user = "musgravejw@gmail.com"
+set smtp_url = "smtps://musgravejw@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = ""
+set realname = "John Musgrave"

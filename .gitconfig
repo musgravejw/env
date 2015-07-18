@@ -1,0 +1,14 @@
+[user]
+	name = musgravejw
+	email = musgravejw@gmail.com
+[alias]
+	s = status
+	b = branch
+	c = checkout
+	ca = commit -m
+	lp = log -15 --pretty=oneline
+	ri = rebase -i HEAD~2
+[color]
+	ui = auto
+[core]
+	editor = /usr/bin/vim

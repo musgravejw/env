@@ -124,26 +124,14 @@ chatnets = {
 };
 
 channels = (
-  { name = "#lobby"; chatnet = "EsperNet"; autojoin = "No"; },
-  { name = "#freenode"; chatnet = "Freenode"; autojoin = "No"; },
-  { name = "#irssi"; chatnet = "Freenode"; autojoin = "No"; },
-  { name = "#gamesurge"; chatnet = "GameSurge"; autojoin = "No"; },
-  { name = "#irssi"; chatnet = "IRCNet"; autojoin = "No"; },
-  { name = "#ircsource"; chatnet = "IRCSource"; autojoin = "No"; },
-  { name = "#netfuze"; chatnet = "NetFuze"; autojoin = "No"; },
-  { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
-  { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
-  { name = "#linux"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#ubuntu"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#security"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#ruby-core"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#ruby"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#kernel"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#c++"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#linux"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#security"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#crypto"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#selinux"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#kernelnewbies"; chatnet = "oftc"; autojoin = "yes"; },
-  { name = "##aws"; chatnet = "Freenode"; autojoin = "yes"; }
-  { name = "#ansible"; chatnet = "Freenode"; autojoin = "yes"; }
-  { name = "#docker"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {

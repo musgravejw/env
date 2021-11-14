@@ -1,7 +1,23 @@
-set editor = "vi"
-set from = "musgrajw@mail.uc.edu"
-set send_charset = "us-ascii:utf-8"
-set imap_user = "musgrajw@mail.uc.edu"
-set smtp_url = "smtps://musgrajw@mail.uc.edu:465/"
+set imap_user = ""
+set imap_pass = ""
+set smtp_url = "smtps://@mail.privateemail.com:465/"
 set smtp_pass = ""
+set from = ""
 set realname = "John Musgrave"
+set folder = "imaps://mail.privateemail.com:993"
+set spoolfile = "+Inbox"
+set postponed = "+Drafts"
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+set move = no
+set smtp_authenticators = 'gssapi:login'
+set sort = reverse-date-received
+# set sort_aux=last-date-received       
+# set sort=threads
+# set sort_re
+# set sort_browser=reverse-date
+color normal green black
+color indicator black green
+color hdrdefault green black
+color status green black 
